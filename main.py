@@ -18,7 +18,7 @@ def get_system_info():
     return info
 
 def post_data():
-    url = "http://localhost:8000/api/station-info"
+    url = "http://192.168.1.9:8000/api/station-info"
     headers = {'Content-Type': 'application/json'}
     data = get_system_info()
     try:
